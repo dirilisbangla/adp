@@ -550,6 +550,20 @@ a {
 }
 
 .news-description {}
+.readmorepost{
+    padding: 10px;
+    background: #08b6b6;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+    display: block;
+    width: 35%;
+    border-radius: 4px;
+}
+.readmorepost:hover{
+    color:#000 !important;
+}
 
 /* end News Event Section */
 /* =========================================== */
