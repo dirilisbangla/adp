@@ -1,5 +1,4 @@
 /* start common css */
-
 body {
     background: rgb(206, 255, 249);
     background: linear-gradient(90deg, rgb(255 251 206) 0%, rgb(241 255 233) 48%, rgb(250 252 229) 100%);
@@ -475,6 +474,23 @@ a {
 
 .add-to-cart:hover {
     color: #fff !important;
+}
+.sale{
+    position: absolute;
+    top: -26px;
+    left: -21px;
+    width: 34%;
+    /* background: #68E86C;
+    padding: 15px;
+    font-size: 20px;
+    border-bottom: 8px solid #3699ff;
+    border-right: 8px solid #3699ff;
+    font-weight: 700;
+    border-radius: 54px 97px 82px 93px; 
+    box-shadow: 1px 0 15px #000; */
+}
+.sale img{
+    width: 100%;
 }
 
 /* end homepage E-commerce section */
