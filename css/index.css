@@ -1,7 +1,5 @@
 /* start common css */
 
-@import url('/font/sushreeFont.css');
-
 body {
     background: rgb(206, 255, 249);
     background: linear-gradient(90deg, rgb(255 251 206) 0%, rgb(241 255 233) 48%, rgb(250 252 229) 100%);
@@ -466,6 +464,7 @@ a {
     opacity: 0;
     text-align: center;
     transition: .4s opacity;
+    transition-delay: .2s;
     top: 40%;
     left: 50%;
     color: #54BFB9;
