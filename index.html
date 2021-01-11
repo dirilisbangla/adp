@@ -462,6 +462,22 @@
         });
 
     </script>
+    <script>
+    	Notification.requestPermission();
+ 	  var data = {
+msg:"Welcome",
+weapon: "testing msg description"
+}
+var e =new Notification("title", {
+  body:data.msg + "\n" + data.weapon,
+  icon:"https://dirilisbangla.github.io/adp/images/disharilogo.png",
+  tag:"A.H.RAIHAN-CHAT-ALERT"
+});
+e.onclick =function(){
+  location.href = "https://dirilisbangla.github.io/adp";
+}
+
+    </script>
 </body>
 
 </html>
