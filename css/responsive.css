@@ -156,6 +156,29 @@
         font-size: 16px;
     }
 
+    .signupcontainer {
+        width: 95%;
+    }
+
+    .headsignupcontainer {
+        text-align: center;
+    }
+.filterTaka input{
+        display: block;
+        width: 100%;
+    }
+    .alredyaccount {
+        padding: 0;
+        margin: 15px 0;
+        float: none !important;
+    }
+
+    .createaccount {
+        padding: 0;
+        float: none !important;
+        display: block;
+    }
+
 }
 
 /* 
@@ -170,6 +193,22 @@
 
     .catalog-menu {
         display: none;
+    }
+
+    .headsignupcontainer {
+        text-align: center;
+    }
+
+    .alredyaccount {
+        padding: 0;
+        margin: 15px 0;
+        float: none !important;
+    }
+
+    .createaccount {
+        padding: 0;
+        float: none !important;
+        display: block;
     }
 
     .logo-area {
@@ -204,6 +243,33 @@
         font-size: 12px;
     }
 
+    .signupcontainer {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 633px) {
+    .rightSide {
+        float: none;
+    }
+    .headsignupcontainer{
+        text-align: center;
+    }
+    .alredyaccount{
+        padding: 0;
+        margin: 15px 0;
+        float: none !important;
+    }
+    .createaccount{
+        padding: 0;
+        float: none !important;
+        display: block;
+    }
+    .filterTaka input{
+        display: block;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -240,16 +306,22 @@
     }
 
     .mainNav ul li a {
-       font-size: 12px;
+        font-size: 12px;
     }
-    .copyright{
-    text-align: center;
-    float: none;
-    display: block;
-}
-.developer{
-    text-align: center;
-    float: none;
-    display: block;
-}
+
+    .copyright {
+        text-align: center;
+        float: none;
+        display: block;
+    }
+
+    .developer {
+        text-align: center;
+        float: none;
+        display: block;
+    }
+
+    .signupcontainer {
+        width: 100%;
+    }
 }

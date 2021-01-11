@@ -16,7 +16,7 @@ position: relative;
 }
 .product-details-thumbnail-img-container{
     display: inline-block;
-    width: 25%;
+    width: 29%;
     position: relative;
     border: 1px solid #dfdfdf;
 }
@@ -122,4 +122,3 @@ margin-right: 84px;
     
 display: inline-block;
 }
-.
