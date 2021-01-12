@@ -463,7 +463,7 @@
 
     </script>
     <script>
-    	//Notification.requestPermission();
+        if(Notification.permission==='granted'){
  	  var notificationdata = {
 msg:"Welcome To Alor Dishari Publications",
 weapon: "Alor Dishari Publications Website"
@@ -476,6 +476,9 @@ var e =new Notification("Welcome To Alor Dishari Publications", {
 e.onclick =function(){
   location.href = "https://dirilisbangla.github.io/adp";
 }
+        }else{
+            Notification.requestPermission();
+        }
 
     </script>
 </body>
