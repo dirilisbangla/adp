@@ -466,12 +466,12 @@
     	//Notification.requestPermission();
  	  var notificationdata = {
 msg:"Hello World",
-weapon: "testin msg description"
+weapon: "Alor Dishari Publications Website"
 }
-var e =new Notification("title", {
+var e =new Notification("Welcome To Alor Dishari Publications", {
   body:notificationdata.msg + "\n" + notificationdata.weapon,
   icon:"https://dirilisbangla.github.io/adp/images/disharilogo.png",
-  tag:"AHRAIHAN-CHAT-ALERT"
+  //tag:"AHRAIHAN-CHAT-ALERT"
 });
 e.onclick =function(){
   location.href = "https://dirilisbangla.github.io/adp";
