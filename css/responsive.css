@@ -14,7 +14,7 @@
 }
 
 .cola-3 {
-    width: 25%;
+    width: 24%;
 }
 
 .cola-4 {
@@ -163,10 +163,12 @@
     .headsignupcontainer {
         text-align: center;
     }
-.filterTaka input{
+
+    .filterTaka input {
         display: block;
         width: 100%;
     }
+
     .alredyaccount {
         padding: 0;
         margin: 15px 0;
@@ -253,22 +255,42 @@
     .rightSide {
         float: none;
     }
-    .headsignupcontainer{
+
+    .headsignupcontainer {
         text-align: center;
     }
-    .alredyaccount{
+
+    .alredyaccount {
         padding: 0;
         margin: 15px 0;
         float: none !important;
     }
-    .createaccount{
+
+    .createaccount {
         padding: 0;
         float: none !important;
         display: block;
     }
-    .filterTaka input{
+
+    .filterTaka input {
         display: block;
         width: 100%;
+    }
+
+    .cartTable {
+        margin: 0px;
+    }
+
+    .cartTable tr th {
+        padding: 9px 1px;
+    }
+
+    .cartTable tr td {
+        padding: 9px 1px;
+    }
+
+    .logo-area img {
+        width: 94%
     }
 }
 
